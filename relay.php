@@ -1,12 +1,11 @@
 <?php 
 
-/***********************
-  WiiScale - Email Relay
-  Use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with FitBit & Apple Health.
-  
-  http://snosrap.com/wiiscale/
-  https://github.com/theshka/WiiScale-EmailRelay
- ***********************/
+/***
+ * WiiScale - Email Relay
+ * Use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with FitBit & Apple Health.
+ *
+ * Instructions: https://github.com/theshka/WiiScale-EmailRelay
+ */
 
 //Settings
 define(FROM_EMAIL, "you@IFTTTEmailChannel.com");
@@ -16,12 +15,11 @@ function sendWeight($mass)
 {
 	$to = "trigger@recipe.ifttt.com";
 	$subject = "#WiiScale";
-	$txt = $mass;
 	$headers = "From: " . FROM_EMAIL . "\r\n" .
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	
-	mail($to,$subject,$txt,$headers);
+	mail($to,$subject,$mass,$headers);
 }
 
 //Listen for WiiScale call... 
