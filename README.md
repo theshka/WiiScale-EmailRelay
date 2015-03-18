@@ -33,5 +33,5 @@
 ## F.A.Q
 At some point during all of this you might ask:
 
--Q: "But, the WiiScale app has a spot to login with FitBit, why can't I just use that?" 
--A: Well, you could-- at one point. But it no longer works... this is a great alternative to continue syncing with FitBit. 
+- Q: "But, the WiiScale app has a spot to login with FitBit, why can't I just use that?" 
+- A: Well, you could-- at one point. But it no longer works... this is a great alternative to continue syncing with FitBit. 
