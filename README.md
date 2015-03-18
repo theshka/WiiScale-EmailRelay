@@ -5,6 +5,7 @@
 ## Required: 
 - WiiFit Balance Board 
 - WiiScale for Mac (http://snosrap.com/wiiscale/)
+- PHP webhost/webspace (this one is free: http://000webhost.com)
 - Email Relay script (this file)
 - IFTTT account & recipe (https://ifttt.com/recipes/270261-wiiscale-to-fitbit)
 - FitBit account (https://www.fitbit.com)
