@@ -1,6 +1,6 @@
 # WiiScale-EmailRelay
 
-  Goal: Use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with Apple Health.
+  Goal: To use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with FitBit & Apple Health.
   
 ## Required: 
 - WiiFit Balance Board 
@@ -14,24 +14,25 @@
 
 ## Setup:
 - Signup with FitBit. 
-- Signup with IFTTT (activate the Email Channel, and the FitBit Channel)
-- Activate the WiiScale to FitBit recipe. 
-- Edit the "you@IFTTTEmailChannel.com" from email in this script to that used in with IFTTT Email Channel.
-- Upload this script to a PHP webserver. 
-- Download and install WiiScale
-- Connect WiiFit Balance Board to your Mac
+- Signup with IFTTT 
+- Activate the IFTTT Email Channel, and the FitBit Channel
+- Activate the Wii Scale to FitBit recipe. 
+- Edit your email in the script settings.
+- Upload this script to a PHP webserver.
+- Download and install WiiScale.
+- Connect WiiFit Balance Board to your Mac.
 - Point the URL in WiiScale settings to this file on your webserver.
   
 ## How it works?
 - Setup.
 - Weigh.
-- WiiScale will ping the listener script.
-- The listener script will email your weight to IFTTT. 
-- IFTTT recipe will automatically record your weight to FitBit.
-- Use SyncSolver to automatically sync FitBit data to Apple Health. 
+- WiiScale will ping the relay script.
+- The script will email your weight to IFTTT using the tag #WiiScale. 
+- The Wii Scale to FitBit IFTTT recipe will automatically record your weight to FitBit.
+- Bonus: Use SyncSolver to automatically sync FitBit data to Apple Health. 
 
 ## F.A.Q
 At some point during all of this you might ask:
 
 - Q: "But, the WiiScale app has a spot to login with FitBit, why can't I just use that?" 
-- A: Well, you could-- at one point. But it no longer works... this is a great alternative to continue syncing with FitBit. 
+- A: Well, you could-- at one point. But it no longer works, and it appears the app is no longer being developed... this is a great alternative to continue, or start syncing with FitBit. 
