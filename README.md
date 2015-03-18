@@ -1,6 +1,6 @@
 # WiiScale-EmailRelay
 
-  Goal: To use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with FitBit & Apple Health.
+  Goal: To use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with FitBit & Apple Health. With a little patience, and some tweaking, you can turn that old Wii accessory in to a wireless smart scale that syncs with your iPhone!
   
 ## Required: 
 - WiiFit Balance Board 
