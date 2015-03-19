@@ -10,7 +10,7 @@
 /**
  * Settings
  */
- define(FROM_EMAIL, "you@IFTTTEmailChannel.com");
+ define("FROM_EMAIL", "you@IFTTTEmailChannel.com");
  //No need to edit anything below...
 
 //Mailer function.
