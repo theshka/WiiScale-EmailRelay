@@ -35,5 +35,6 @@ if(isset($_SERVER['CONTENT_TYPE']) == "application/x-www-form-urlencoded")
 else 
 {
 	//if viewing directly, show a friendly message. 
-	echo 'It works! Congrats. Point your WiiScale URL here!';
+	echo 'It works! Congrats. Point your WiiScale URL here! <br>';
+	echo '<pre> http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . '</pre>';
 }
