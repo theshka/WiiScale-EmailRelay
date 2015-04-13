@@ -19,7 +19,7 @@ function sendWeight($mass)
 	$to = "trigger@recipe.ifttt.com";
 	$subject = "New weight data available! #WiiScale";
 	$headers = "From: " . FROM_EMAIL . "\r\n" .
-	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	
 	//use sendmail transport protocol. 
