@@ -9,6 +9,7 @@
 - Email Relay script (this file)
 - IFTTT account & recipe (https://ifttt.com/recipes/270261-wiiscale-to-fitbit)
 - FitBit account (https://www.fitbit.com)
+## Optional:
 - SyncSolver (https://itunes.apple.com/us/app/sync-solver-for-fitbit/id935306292?mt=8&uo=4)
 - iPhone with Apple Health
 
