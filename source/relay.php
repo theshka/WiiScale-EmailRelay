@@ -38,7 +38,7 @@ function sendWeight($mass)
 //Listen for WiiScale call... 
 if(isset($_SERVER['CONTENT_TYPE']) == "application/x-www-form-urlencoded")
 {
-	// Test for valid weigt 
+	// Test for valid weight 
 	if (is_numeric($_POST['mass'])) {
 		// Send weight (in kg) to IFTTT, rounded to the nearest 1/10000th
 		sendWeight(round($_POST['mass'], 4));	
