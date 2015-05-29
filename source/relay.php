@@ -2,21 +2,21 @@
 
 /**
  * WiiScale - Email Relay
+ *
  * Use a WiiFit Balance Board as 'Smart Scale' and have it automatically sync with FitBit & Apple Health.
  *
- * Instructions: https://github.com/theshka/WiiScale-EmailRelay
+ * @author Tyler Heshka
+ * @link https://keybase.io/theshka
+ * @example https://github.com/theshka/WiiScale-EmailRelay
+ * @license http://opensource.org/licenses/MIT
+ * @version 0.0.0
  */
 
-/**
- * Settings
- */
- 
 // Set your timemzone: http://php.net/manual/en/timezones.php
 date_default_timezone_set('Canada/Eastern'); 
  
 // The email address you actived on IFTTT email channel.
 define("FROM_EMAIL", "you@IFTTTEmailChannel.com");
- 
 
 /**
  * /No need to edit anything below...
